@@ -2,7 +2,7 @@ import React from "react";
 import "./styles.scss";
 
 const github = "https://github.com/KSalenkov/online-store";
-const docker = "https://hub.docker.com/repository/docker/salki/online-store"
+const docker = "https://hub.docker.com/r/salki/online-store"
 
 export default () => (
   <div className="footer-container">
