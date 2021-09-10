@@ -4,6 +4,7 @@ import './App.css';
 import Routes from "./routes";
 import Layout from "./layout";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import { useDispatch } from "react-redux";
 
@@ -15,7 +16,10 @@ function App({dealers}) {
   }, [dealers])
   
   return (
-    <Layout header={<Header />}>
+    <Layout
+      header={<Header />}
+      footer={<Footer />}
+    >
       <Routes />
     </Layout>
   );
