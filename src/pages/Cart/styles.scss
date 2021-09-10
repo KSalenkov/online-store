@@ -1,0 +1,39 @@
+.selected-text {
+  margin-top: 16px;
+  font-size: 16px;
+}
+
+.header-cart {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 640px) {
+    flex-direction: column;
+  }
+
+  .button-wrapper {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .button {
+    min-width: 160px;
+    margin-left: 16px;
+    height: 48px;
+
+    @media screen and (max-width: 640px) {
+      margin-left: 0;
+      width: 96px;
+      margin-top: 16px;
+    }
+  }
+}
+
+.container {
+
+}

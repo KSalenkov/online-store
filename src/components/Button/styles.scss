@@ -1,0 +1,42 @@
+.button-component {
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  //background-color: #005bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  transition: background-color 0.15s;
+
+  //&:hover {
+  //  background-color: #003ead;
+  //}
+
+
+}
+
+.primary {
+  background-color: #005bff;
+
+  &:hover {
+    background-color: #003ead;
+  }
+}
+
+.error {
+  background-color: #f14d4d;
+
+  &:hover {
+    background-color: #d63838;
+  }
+}
+
+.button-component-disabled {
+  background-color: #b0b0b0;
+  cursor: default;
+
+  &:hover {
+    background-color: #b0b0b0;
+  }
+}

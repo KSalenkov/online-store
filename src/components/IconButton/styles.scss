@@ -1,0 +1,45 @@
+.icon-button-component {
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color .15s;
+  position: relative;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  .badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #fa3232;
+    padding: 2px 6px;
+    border-radius: 50%;
+
+    p {
+      color: #ffffff;
+      font-size: 10px;
+      font-weight: 500;
+    }
+  }
+}
+
+.disabled-icon-button {
+  opacity: 0.8;
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+  cursor: default;
+}
